@@ -1,5 +1,9 @@
 Photon 0.5.2 alpha
 
+This is a painting program that is trying to join all basic features of Painter, Photoshop and Amiga's Deluxe Paint (no animation however). Itt has support for wacom tablet's pressure. Layers, Drawing, masking, filtering and all that.... See by yourself.
+
+![Photon](http://lema.link-u.com/be/nat_shot_big.jpg)
+
 This is the abandoned BeUnited.org project, Photon. A BeUnited team started working on it, but the team decided to work on a completely new codebase, named Inferno. So, here we are, releasing Photon on BeBits some months later, as no one works on it anymore. The source code is available as well as the binary. If you would like to continue developing it, just visit http://photon.sourceforge.net and contact John Yanarella to give you the latest source and the passwords of the web site. The version that is included here, is a cleaned up version (over the original) from John Yanarella (Thanks John!).
 To successfully run or compile Photon, please copy the two files found on [photon dir]/lib on the /home/config/lib/ folder.
 The following message is from the original author of Photon, Santiago Lema.
