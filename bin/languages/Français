@@ -1,0 +1,524 @@
+; Langue Française pour Natural Paint
+; par Santiago Lema (santiago.lema@cryogen.ch)
+
+;VERSION_BY = {English version by }
+VERSION_BY = {Version française par }
+
+;VERSION_AUTHOR = {Santiago Lema (santiago.lema@cryogen.ch)}
+VERSION_AUTHOR = {Santiago Lema (santiago.lema@cryogen.ch)}
+
+;NOT_YET = {Not implemented yet!}
+NOT_YET = {La fonction n'est pas encore implémentée!}
+
+;YES = {Yes}
+YES = {Oui}
+
+;NO = {No}
+NO = {Non}
+
+;CANCEL = {Cancel}
+CANCEL = {Annuler}
+
+;ABOUT = {About}
+ABOUT = {A propos}
+
+;MAKES_USE_OF {This program makes use of: }
+MAKES_USE_OF {Ce programme utilise: }
+
+;FILE= {File}
+FILE = {Fichier}
+
+;NEW= {New}
+NEW = {Nouveau}
+
+;OPEN= {Open}
+OPEN = {Ouvrir...}
+
+;CLOSE= {Close}
+CLOSE = {Fermer}
+
+;REVERT= {Revert}
+REVERT = {Revenir à la dernière version enregistrée}
+
+;SAVE= {Save}
+SAVE = {Sauver}
+
+;SAVE_AS= {Save as...}
+SAVE_AS = {Sauver sous...}
+
+;QUIT= {Quit}
+QUIT = {Quitter}
+
+;PREFERENCES = {Preferences}
+PREFERENCES = {Préférences}
+
+;QUIT= {Quit}
+QUIT = {Quitter}
+
+
+;--------------EDIT_MENU-----------------------
+
+;EDIT = {Edit}
+EDIT = {Edition}
+
+;UNDO = {Undo}
+UNDO = {Annuler}
+
+;REDO = {Redo}
+REDO = {Refaire}
+
+;CUT= {Cut}
+CUT = {Couper}
+
+;COPY= {Copy}
+COPY = {Copier}
+
+;PASTE = {Paste}
+PASTE  = {Coller}
+
+;PR_BRUSH = {Previous Brush}
+PR_BRUSH = {Pinceau Précédent}
+
+;NX_BRUSH = {Next Brush}
+NX_BRUSH = {Pinceau Suivant}
+
+;PR_P_BRUSH = {Previous Perso Brush}
+PR_P_BRUSH = {Pinceau Perso Précédent}
+
+;NX_P_BRUSH = {Next PersoBrush}
+NX_P_BRUSH = {Pinceau Perso Suivant}
+
+;PR_PAPER= {Previous Paper}
+PR_PAPER = {Papier Précédent}
+
+;NX_PAPER= {Next Paper}
+NX_PAPER = {Papier Suivant}
+
+;ZOOM_IN = {Zoom in}
+ZOOM_IN = {Zoomer}
+
+;ZOOM_OUT = {Zoom in}
+ZOOM_OUT = {Dézoomer}
+
+;PURGE_UNDO = {Purge Undo}
+PURGE_UNDO = {Vider mémoire d'annulation}
+
+
+;IMAGE
+
+;IMAGE = {Image}
+IMAGE = {Image}
+
+;CURVES = {Curves...}
+CURVES = {Courbes...}
+
+;INVERT = {Invert (Negative)}
+INVERT = {Inverser (Négatif)}
+
+;HSV = {Hue, Saturation, Value...}
+HSV = {Teinte, Saturation, Luminosité...}
+
+;LIMIT_LEVELS = {Limit levels...}
+LIMIT_LEVELS = {Limiter niveaux...}
+
+;CROP = {Crop}
+CROP = {Recadrer}
+
+;CANVAS_SIZE = {Canvas Size}
+CANVAS_SIZE = {Taille de la zone de travail}
+
+;CANVAS_SIZE = {Canvas Size}
+CANVAS_SIZE = {Taille de la zone de travail}
+
+;RESIZE_IMAGE = {Resize Image...}
+RESIZE_IMAGE = {Taille de l'Image...}
+
+;ROTATION_SYMETRY = {Rotation / Symetry...}
+ROTATION_SYMETRY = {Rotation / Symétrie...}
+
+;ROTATE_180 = {Rotate 180°}
+ROTATE_180 = {Rotation à 180°}
+
+;ROTATE_PLUS_90 = {Rotate +90°}
+ROTATE_PLUS_90 = {Rotation à +90°}
+
+;ROTATE_MINUS_90 = {Rotate -90°}
+ROTATE_MINUS_90 = {Rotation à -90°}
+
+;ROTATE_FREE = {Rotate freely...}
+ROTATE_FREE = {Rotation libre...}
+
+;HORIZONTAL_SYMETRY = {Horizontal Symetry}
+HORIZONTAL_SYMETRY = {Symétrie Horizontale}
+
+;VERTICAL_SYMETRY = {Vertical Symetry}
+VERTICAL_SYMETRY = {Symétrie Verticale}
+
+;CONVERT_IMAGE = {Convert Image}
+CONVERT_IMAGE = {Convertir l'Image}
+		
+;MANIPULATE_IMAGE = {Manipulate Image}
+MANIPULATE_IMAGE = {Manipuler l'Image}
+
+;----------------------- MASK -------------------------------
+
+;MASK = {Mask}
+MASK = {Masque}
+
+;SELECT_ALL = {Select None}
+SELECT_ALL = {Tout Sélectioner}
+
+;DELETE_MASK = {Select None}
+DELETE_MASK = {Désélectioner}
+
+;INVERT_MASK = {Invert Mask}
+INVERT_MASK = {Inverser Masque}
+
+;SELECT_RANGE = {Select Range...}
+SELECT_RANGE = {Plage de Couleurs...}
+
+;ENABLE_MASK = {Enable Mask}
+ENABLE_MASK = {Activer Masque}
+
+;DISABLE_MASK = {Disable Mask}
+DISABLE_MASK = {Désactiver Masque}
+
+;WINDOW = {Window}
+WINDOW = {Fenêtre}
+
+;DISPLAY = {Display}
+DISPLAY = {Affichage}
+
+
+
+;HELP = {Help}
+HELP = {Aide}
+
+;--------------------- TOOL --------------------- 
+
+;PAINTBRUSH = {Paintbrush (B)}
+PAINTBRUSH = {Pinceau (B)}
+
+;ERASER = {Eraser}
+ERASER = {Gomme}
+
+;BUCKET= {Bucket (K)}
+BUCKET = {Seau (K)}
+
+;LINE= {Line (N)}
+LINE = {Ligne (N)}
+
+;F_POLY= {Filled Polygon}
+F_POLY = {Polygone Plein}
+
+;SPLINE= {Spline}
+SPLINE = {Courbe Spline}
+
+;F_SPLINE_POLY = {Filled Spline Polygon}
+F_SPLINE_POLY = {Polygone Spline Plein}
+
+;RECTANGLE = {Rectangle (R)}
+RECTANGLE = {Rectangle (R)}
+
+;F_RECTANGLE = {Filled Rectangle (R)}
+F_RECTANGLE = {Rectangle Plein (R)}
+
+;ELLIPSE = {Ellipse}
+ELLIPSE = {Ellipse}
+
+;F_ELLIPSE = {Filled Ellipse}
+F_ELLIPSE = {Ellipse Pleine}
+
+;TEXT = {Text (T)}
+TEXT = {Texte (T)}
+
+;ZOOM = {Zoom (Z)}
+ZOOM = {Zoom (Z)}
+
+;MOVE = {Move Tool (H)}
+MOVE = {Déplacement (H)}
+
+;PICKER = {Picker (I)}
+PICKER = {Pipette (I)}
+
+;STAMP = {Stamp (S)}
+STAMP = {Tampon (S)}
+
+;WAND = {(Select) Wand (W)}
+WAND = {(Sélection) Baguette (W)}
+
+;LASSO = {(Select) Lasso (L)}
+LASSO = {(Sélection) Lasso (L)}
+
+;SEL_RECT = {(Select) Rectangle (M)}
+SEL_RECT = {(Sélection) Rectangle (M)}
+
+;SEL_ELLIPSE = {(Select) Ellipse (Shift+M)}
+SEL_ELLIPSE = {(Sélection) Ellipse (Shift+M)}
+
+;SEL_MOVE = {Move Tool}
+SEL_MOVE = {Déplacement}
+
+;PICK_BRUSH = {Pick Brush}
+PICK_BRUSH = {Prendre pinceau}
+
+;PM_NORMAL = {Normal}
+PM_NORMAL = {Normal}
+
+;PM_MULTIPLY = {Multiply}
+PM_MULTIPLY = {Multiplication}
+
+;PM_LIGHTEN = {Lighten}
+PM_LIGHTEN = {Eclaircir}
+
+;PM_DARKEN = {Darken}
+PM_DARKEN = {Assombrir}
+
+;PM_COLORIZE = {Colorize}
+PM_COLORIZE = {Coloriser}
+
+;PM_DIFFERENCE = {Difference}
+PM_DIFFERENCE = {Différence}
+
+;PM_COMBINE = {Combine}
+PM_COMBINE = {Combiner}
+
+;WINDOWED = {Windowed mode}
+WINDOWED = {Mode fenêtré}
+
+;NO_TITLE = {No title mode}
+NO_TITLE = {Mode sans titre}
+
+;FULL_SCREEN = {Full screen mode}
+FULL_SCREEN = {Mode plein écran}
+
+
+;GET_LATEST_VERSION = {Get latest version on BeWare, Bebits or at : }
+GET_LATEST_VERSION = {Procurez-vous la dernière version sur BeWare, BeBits ou : }
+
+;MEM_USAGE = {Memory in use :}
+MEM_USAGE = {Mémoire utilisée :}
+
+;NO_IMAGE_LOADED = {No image currently loaded.}
+NO_IMAGE_LOADED = {Pas d'image chargée pour l'instant.}
+
+;MODIFIED_SAVE = {This picture has been modified. Closing it will lose changes. Would you like to save it before?}
+MODIFIED_SAVE = {Cette image a été modifiée. La fermer effacera toutes modifications. Désirez-vous l'enregistrer auparavant?}
+
+;RELOAD_SAVED =  {Do you really wish to reload last saved version and lose changes? }
+RELOAD_SAVED =  {Désirez-vous réellement recharger la dernière version enregistrée et perdre toutes les modifications effectuées?}
+
+;ALREADY_LOADED = {This picture is already loaded. Do you wish to open another copy?}
+ALREADY_LOADED = {Cette image est déjà chargée. Désirez-vous en ouvrir une nouvelle copie?}
+
+;COULD_NOT_LOAD = {For some reason, I could not load bitmap named : }
+COULD_NOT_LOAD = {Impossible de charger l'image nommée : }
+
+;NOT_RECOGNIZED {File is probably not an image... or the format is unknown}
+NOT_RECOGNIZED {Le fichier n'est probablement pas un fichier d'image ou alors le format est inconnu.}
+
+;DEST_NOT_B_RGB32 = {This conversion filter tried to create something else than a 32 bits RGB image.}
+DEST_NOT_B_RGB32 = {Ce filtre de conversion a tenté de créer autre chose qu'une image en 32 bits RGB.}
+
+;OPACITY = {Opacity}
+OPACITY = {Opacité}
+
+;MASKING = {Quick Mask Mode (Q)}
+MASKING = {Mode Masque Quick (Q)}
+
+;TOOLS = {Tools}
+TOOLS = {Outils}
+
+;RED = {Red}
+RED = {Rouge}
+
+;GREEN = {Green}
+GREEN = {Vert}
+
+;BLUE = {Blue}
+BLUE = {Bleu}
+
+;ALPHA = {Alpha}
+ALPHA = {Alpha}
+
+;CREATE_NEW = {New Image}
+CREATE_NEW = {Nouvelle Image}
+
+;LOADING = {Loading }
+LOADING = {Chargement de }
+
+
+;FOREGROUND = {Foreground Color}
+FOREGROUND = {Couleur de Premier Plan}
+
+;BACKGROUND = {Background Color}
+BACKGROUND = {Couleur d'Arrière-Plan}
+
+;WIDTH = {Width}
+WIDTH = {Largeur}
+
+;HEIGHT = {Height}
+HEIGHT = {Hauteur}
+
+;SAVE_THUMBNAIL = {Save Thumbnail}
+SAVE_THUMBNAIL = {Enregistrer Vignette}
+
+;PERSO_BRUSHES= {Perso. Brushes}
+PERSO_BRUSHES = {Pinceaux Perso.}
+
+;BRUSHES= {Brushes}
+BRUSHES = {Pinceaux}
+
+;PAPERS= {Papers}
+PAPERS = {Papiers}
+
+;ONLY_IMG= {Only Images}
+ONLY_IMG = {Images seulement}
+
+;SETTINGS= {Settings}
+SETTINGS = {Réglages}
+
+;LOADING_BRUSHES = {Loading brushes...}
+LOADING_BRUSHES = {Chargement des pinceaux...}
+
+;LOADING_PAPERS = {Loading papers...}
+LOADING_PAPERS = {Chargement des papiers...}
+
+;TEMP_BRUSH = {Temp. Brush}
+TEMP_BRUSH = {Pinceau Temp.}
+
+;TEMP_PAPER = {Temp. Paper}
+TEMP_PAPER = {Papier Temp.}
+
+;USE_AS_PAPER = {Use selection as Paper}
+USE_AS_PAPER = {Utiliser sélection comme papier}
+
+
+;COULD_NOT_SAVE_PREFS = {Preferences could not be saved!!!}
+COULD_NOT_SAVE_PREFS = {Les préférences n'ont pas pu être enregistrées!!!}
+
+;COULD_NOT_LOAD_PREFS = {Preferences could not be loaded, resetting to defaults.}
+COULD_NOT_LOAD_PREFS = {Les préférences n'ont pu être chargées. Retour aux paramètres par défaut.}
+
+;SAVING = {Saving}
+SAVING = {Enregistrement de} 
+
+;LOADING = {Loading}
+LOADING = {Chargement de}
+
+;for main preferences
+;MAIN = {Main}	
+MAIN = {Générales}	
+
+;UNITS = {Units}
+UNITS = {Unités}
+
+;RES_UNITS = {Resolution Units}
+RES_UNITS = {Unités de Résolution}
+
+		
+;CENTIMETERS = {centimeters}
+CENTIMETERS = {centimètres}
+
+;CENTIMETER = {centimeter}
+CENTIMETER = {centimètre}
+
+;MILLIMETERS = {millimeters}
+MILLIMETERS = {millimètres}
+
+;INCHES = {inches}
+INCHES = {pouces}
+
+;INCH = {inch}
+INCH = {pouce}
+
+;UNTITLED = {Untitled Image}
+UNTITLED = {Image sans Titre}
+
+
+;FORMATS = {Formats}
+FORMATS = {Formats}
+
+;WEIGHT = {Weight}
+WEIGHT = {Poids}
+
+;for Language preferences...
+
+;LANGUAGE = {Language}
+LANGUAGE = {Langue}
+
+;CHANGES_ON_NEXT_LAUNCH = {Changes will take effect on next launch.}
+CHANGES_ON_NEXT_LAUNCH = {Les changements ne prendront effet qu'au prochain lancement.}
+	
+
+;LOADING_THUMB = {Loading Thumbnails...}
+LOADING_THUMB = {Chargement des Vignettes...}
+
+;PLEASE_WAIT = {Please wait...}
+PLEASE_WAIT = {Veuillez patienter...}
+
+;SHOW_THUMBNAIL = {Show Thumbnails}
+SHOW_THUMBNAIL = {Afficher Vignettes}
+		
+;CREATE_THUMBNAIL = {Create Thumbnails}
+CREATE_THUMBNAIL = {Créer Vignettes}
+
+;CROPPED = {cropped}
+CROPPED = {recadrée}
+
+;FILTERED = {filtered}
+FILTERED = {filtrée}
+		
+;LAYER = {Layer}
+LAYER = {Calque}
+
+;LAYERS = {Layers}
+LAYERS = {Calques}
+
+;LAYER_GUIDE = {Guide Layer}
+LAYER_GUIDE = {Calque de Repères}
+
+;VISIBLE = {Visible}
+VISIBLE = {Visible}
+
+;ADD_LAYER = {Add new Layer}
+ADD_LAYER = {Ajouter un nouveau calque}
+
+;ADD_GUIDE_LAYER = {Add Guide Layer}
+ADD_GUIDE_LAYER = {Ajouter un nouveau calque de repères}
+
+;DELETE_LAYER = {Delete this Layer}
+DELETE_LAYER = {Supprimer ce Calque}
+
+;DUPLICATE_LAYER = {Duplicate this Layer}
+DUPLICATE_LAYER = {Dupliquer ce Calque}
+
+;MERGE_LAYERS = {Merge Layers}
+MERGE_LAYERS = {Fusionner les Calques}
+
+;MERGE_VISIBLE_LAYERS = {Merge Visible Layers}
+MERGE_VISIBLE_LAYERS = {Fusionner les Calques Visibles}
+
+;FLATTEN_IMAGE = {Flatten Image}
+FLATTEN_IMAGE = {Aplatir l'Image}
+
+;DISPLAY_OPTIONS = {Display Options...}
+DISPLAY_OPTIONS = {Options d'Affichage...}
+
+;NEED_ONE_LAYER = {You need at least one layer.}
+NEED_ONE_LAYER = {Il faut au moins un calque.}
+
+;INFOS = {Infos}
+INFOS = {Infos}
+
+;OPTIONS = {Options}
+OPTIONS = {Options}
+
+;FILTERING = {Applying filter...}
+FILTERING = {Application du filtre...}
+
+;HIDE_ALL = {Hide all windows}
+HIDE_ALL = {Masquer toutes les fenêtres}
+
+;NAVIGATION = {Navigation}
+NAVIGATION = {Navigation}

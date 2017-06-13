@@ -1,0 +1,37 @@
+PhotonMain.o: \
+ /BeData/sources/Photon\ 0.5\ alpha/src/sources/PhotonMain.cpp \
+ /BeData/sources/Photon\ 0.5\ alpha/src/sources/PhotonMain.h \
+ /BeData/sources/Photon\ 0.5\ alpha/src/sources/share.h \
+ /BeData/sources/Photon\ 0.5\ alpha/src/sources/all_includes.h \
+ /BeData/sources/Photon\ 0.5\ alpha/src/sources/defs.h \
+ /BeData/sources/Photon\ 0.5\ alpha/src/sources/ImageManip.h \
+ /BeData/sources/Photon\ 0.5\ alpha/src/sources/BBitmapAccessor.h \
+ /BeData/sources/Photon\ 0.5\ alpha/src/sources/BitmapAccessor.h \
+ /BeData/sources/Photon\ 0.5\ alpha/src/sources/LanguageClass.h \
+ /BeData/sources/Photon\ 0.5\ alpha/src/sources/PrefData.h \
+ /BeData/sources/Photon\ 0.5\ alpha/src/sources/TextMessage.hh \
+ /BeData/sources/Photon\ 0.5\ alpha/src/sources/DThumbnail.h \
+ /BeData/sources/Photon\ 0.5\ alpha/src/sources/BubbleHelper.h \
+ /BeData/sources/Photon\ 0.5\ alpha/src/sources/Utils.h \
+ /BeData/sources/Photon\ 0.5\ alpha/src/sources/PBitmapModif.h \
+ /BeData/sources/Photon\ 0.5\ alpha/src/sources/ProgressWin.h \
+ /BeData/sources/Photon\ 0.5\ alpha/src/sources/PhotonImage.h \
+ /BeData/sources/Photon\ 0.5\ alpha/src/sources/PhotonWindow.h \
+ /BeData/sources/Photon\ 0.5\ alpha/src/sources/PrefWindow.h \
+ /BeData/sources/Photon\ 0.5\ alpha/src/sources/CreateWindow.h \
+ /BeData/sources/Photon\ 0.5\ alpha/src/sources/CurveWindow.h \
+ /BeData/sources/Photon\ 0.5\ alpha/src/sources/LimitLevelsWindow.h \
+ /BeData/sources/Photon\ 0.5\ alpha/src/sources/SaveAsPanel.h \
+ /BeData/sources/Photon\ 0.5\ alpha/src/sources/LoadSavePanels.h \
+ /BeData/sources/Photon\ 0.5\ alpha/src/sources/PhotonView.h \
+ /BeData/sources/Photon\ 0.5\ alpha/src/sources/PaperWindow.h \
+ /BeData/sources/Photon\ 0.5\ alpha/src/sources/BrushWindow.h \
+ /BeData/sources/Photon\ 0.5\ alpha/src/sources/LayerWindow.h \
+ /BeData/sources/Photon\ 0.5\ alpha/src/sources/InfoWindow.h \
+ /BeData/sources/Photon\ 0.5\ alpha/src/sources/RangeWindow.h \
+ /BeData/sources/Photon\ 0.5\ alpha/src/sources/OptionWindow.h \
+ /BeData/sources/Photon\ 0.5\ alpha/src/sources/NavigationWindow.h \
+ /BeData/sources/Photon\ 0.5\ alpha/src/sources/ToolWindow.h \
+ /BeData/sources/Photon\ 0.5\ alpha/src/sources/ColWindow.h \
+ /BeData/sources/Photon\ 0.5\ alpha/src/sources/cursors.h \
+ /BeData/sources/Photon\ 0.5\ alpha/src/sources/AboutWindow.h
